@@ -1,13 +1,30 @@
 import { useState } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import Food from "./Food";
 
-import { User } from "./User";
+import Card from "./Card";
 
 function App() {
   return (
-    <div>
-      <User></User>
-    </div>
+    <>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+
+    </>
   );
 }
 
 export default App;
+
+// const animals = ["lion", "Zebra", "Tiger", "Snake"];
+// const animalsList = animals.map((animal) => {
+//   return <li key="animal">{animal}</li>;
+// });
+
+// return (
+//   <div>
+//     <ul>{animalsList}</ul>
+//   </div>
+// );
